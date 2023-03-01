@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractableComponent : MonoBehaviour
+public class InteractableComponent : InteractableComponentBase
 {
 
-    //public abstract void Interact();
+    public override void Interact()
+    {
+
+    }
 }
