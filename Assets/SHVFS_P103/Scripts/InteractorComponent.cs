@@ -38,7 +38,7 @@ public class InteractorComponent : MonoBehaviour
         {
             var interactable = hit.transform.GetComponent<InteractableComponentBase>();
 
-            if (interactable != null) return;
+            if (interactable == null) continue;
 
             interactable.Interact();
         }
